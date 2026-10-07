@@ -1,0 +1,4 @@
+Operational Cluster,Total System Load,Net Intake Pressure,Children in CBP custody,Children transferred out of CBP custody,Children in HHS Care,Children discharged from HHS Care,7-Day Net Intake,Load Volatility 7D,Observations,Operational Pattern
+0,7198.39,11.17,276.79,210.38,6921.61,199.21,13.06,134.94,294,High Load / High Intake Pressure
+1,2410.63,-8.93,28.5,11.88,2382.13,20.81,-64.08,46.46,226,Lower Load / High Intake Pressure
+2,9132.32,-167.38,178.3,140.52,8954.02,307.91,-1082.08,244.04,200,High Load / Lower Intake Pressure

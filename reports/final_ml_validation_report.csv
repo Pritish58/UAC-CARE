@@ -1,0 +1,31 @@
+Component,Check,Status,Details
+Data,File exists,PASS,C:\Users\Pritish Kumar\Desktop\UAC analysis\Data\Processed\uac_cleaned.csv
+Feature Engineering,File exists,PASS,C:\Users\Pritish Kumar\Desktop\UAC analysis\Data\Processed\uac_features.csv
+Data,No negative values,PASS,Checked numeric columns
+Feature Engineering,Target exists,PASS,Next Day System Load
+Load Prediction,File exists,PASS,C:\Users\Pritish Kumar\Desktop\UAC analysis\Models\best_load_prediction_model.pkl
+Load Prediction,File exists,PASS,C:\Users\Pritish Kumar\Desktop\UAC analysis\reports\load_model_results.csv
+Load Prediction,File exists,PASS,C:\Users\Pritish Kumar\Desktop\UAC analysis\reports\load_predictions.csv
+Load Prediction,Model comparison completed,PASS,Best RMSE = 75.23980335974116
+Stress Classification,File exists,PASS,C:\Users\Pritish Kumar\Desktop\UAC analysis\Models\best_stress_model.pkl
+Stress Classification,File exists,PASS,C:\Users\Pritish Kumar\Desktop\UAC analysis\reports\stress_model_results.csv
+Stress Classification,File exists,PASS,C:\Users\Pritish Kumar\Desktop\UAC analysis\reports\stress_confusion_matrix.csv
+Stress Classification,File exists,PASS,C:\Users\Pritish Kumar\Desktop\UAC analysis\Data\Processed\uac_stress_labels.csv
+Stress Classification,Model evaluation available,PASS,Stress results successfully loaded
+Anomaly Detection,File exists,PASS,C:\Users\Pritish Kumar\Desktop\UAC analysis\Models\anomaly_detection_model.pkl
+Anomaly Detection,File exists,PASS,C:\Users\Pritish Kumar\Desktop\UAC analysis\Data\Processed\uac_anomaly_results.csv
+Anomaly Detection,File exists,PASS,C:\Users\Pritish Kumar\Desktop\UAC analysis\reports\anomaly_summary.csv
+Anomaly Detection,Anomaly rate calculated,PASS,5.00%
+Operational Clustering,File exists,PASS,C:\Users\Pritish Kumar\Desktop\UAC analysis\Models\operational_clustering_model.pkl
+Operational Clustering,File exists,PASS,C:\Users\Pritish Kumar\Desktop\UAC analysis\Data\Processed\uac_operational_clusters.csv
+Operational Clustering,File exists,PASS,C:\Users\Pritish Kumar\Desktop\UAC analysis\reports\cluster_summary.csv
+Operational Clustering,Cluster summary available,PASS,3 clusters
+SARIMA Forecasting,File exists,PASS,C:\Users\Pritish Kumar\Desktop\UAC analysis\Models\sarima_forecasting_model.pkl
+SARIMA Forecasting,File exists,PASS,C:\Users\Pritish Kumar\Desktop\UAC analysis\reports\sarima_forecast.csv
+SARIMA Forecasting,File exists,PASS,C:\Users\Pritish Kumar\Desktop\UAC analysis\reports\forecast_results.csv
+SARIMA Forecasting,Forecast evaluation available,PASS,MAE and RMSE available
+Explainability,File exists,PASS,C:\Users\Pritish Kumar\Desktop\UAC analysis\reports\shap_values.csv
+Explainability,File exists,PASS,C:\Users\Pritish Kumar\Desktop\UAC analysis\reports\shap_feature_importance.csv
+Explainability,File exists,PASS,C:\Users\Pritish Kumar\Desktop\UAC analysis\reports\figures\shap_summary.png
+Explainability,File exists,PASS,C:\Users\Pritish Kumar\Desktop\UAC analysis\reports\figures\shap_feature_importance.png
+Explainability,Feature importance available,PASS,SHAP importance successfully generated
